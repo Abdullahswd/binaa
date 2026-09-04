@@ -1,0 +1,872 @@
+{
+  "employees": [
+    {
+      "id": "EMP001",
+      "name": "أحمد محمد السعيد",
+      "jobTitle": "معلم تربية خاصة",
+      "department": "قسم التأهيل",
+      "phone": "0501234567",
+      "avatarInitials": "أم",
+      "supervisorName": "د. خالد العمري (مدير التأهيل)",
+      "salary": 8500.0,
+      "custodyDeduction": 200.0,
+      "loanDeduction": 500.0,
+      "violationDeduction": 0.0,
+      "absenceDays": 1,
+      "absenceDeduction": 283.0,
+      "permissionHours": 2.5,
+      "permissionDeduction": 88.0,
+      "attendanceStatus": "حاضر",
+      "biometricId": "BIO-1142",
+      "custodyItems": ["جهاز ايباد برامج نطق", "حقيبة اختبارات CARS", "مفتاح قاعة التخاطب"],
+      "loanBalance": "المتبقي: ٣,٥٠٠ ر.س (من إجمالي ٦,٠٠٠)",
+      "trafficViolations": [],
+      "leaveBreakdown": {"سنوية": 14, "مرضية": 2, "استثنائية": 0, "بدون عذر": 1},
+      "contractDetails": "عقد محدد المدة (سنتان) — ينتهي 01/09/2026",
+      "jobDescription": "تطبيق برامج VB-MAPP، تقييم سلوكي، تدريب الطلاب وإعداد التقارير اليومية",
+      "officialDocuments": ["الهوية الوطنية (سارية)", "مؤهل تربية خاصة", "ترخيص الهيئة السعودية للتخصصات"]
+    },
+    {
+      "id": "EMP002",
+      "name": "فاطمة عبدالله الزهراني",
+      "jobTitle": "أخصائية نطق وتواصل",
+      "department": "قسم النطق والتواصل",
+      "phone": "0507654321",
+      "avatarInitials": "فز",
+      "supervisorName": "أ. منيرة السبيعي (مشرفة النطق)",
+      "salary": 9200.0,
+      "custodyDeduction": 150.0,
+      "loanDeduction": 1000.0,
+      "violationDeduction": 100.0,
+      "absenceDays": 0,
+      "absenceDeduction": 0.0,
+      "permissionHours": 1.0,
+      "permissionDeduction": 38.0,
+      "attendanceStatus": "حاضر",
+      "biometricId": "BIO-1143",
+      "custodyItems": ["جهاز تسجيل صوتي متقدم", "مجموعة أدوات تحفيز اللسان"],
+      "loanBalance": "المتبقي: ٥,٠٠٠ ر.س",
+      "trafficViolations": ["مخالفة عدم ربط الحزام - ١٠٠ ر.س"],
+      "leaveBreakdown": {"سنوية": 21, "مرضية": 1, "استثنائية": 1, "بدون عذر": 0},
+      "contractDetails": "عقد غير محدد المدة",
+      "jobDescription": "تشخيص اضطرابات النطق، وضع الخطط العلاجية الفردية، المتابعة مع الأسر",
+      "officialDocuments": ["الهوية الوطنية", "ماجستير اضطرابات نطق", "بطاقة التخصصات الصحية"]
+    }
+  ],
+  "buses": [
+    {
+      "id": "BUS001",
+      "plateNumber": "أ ب ت 1234",
+      "model": "تويوتا هايس",
+      "year": 2022,
+      "driverName": "محمد علي العتيبي",
+      "driverPhone": "0506543210",
+      "routeName": "خط حي الملك فهد",
+      "capacity": 14,
+      "currentStudents": 11,
+      "registrationExpiry": "2026-07-10T00:00:00.000",
+      "inspectionExpiry": "2026-03-15T00:00:00.000",
+      "insuranceExpiry": "2026-09-20T00:00:00.000",
+      "status": "في الطريق",
+      "maintenanceHistory": [
+        "تغيير زيت وفلاتر - 01/05/2025 (ورشة الخليج)",
+        "فحص وااختبار الفرامل - 15/03/2025"
+      ],
+      "invoices": [
+        {
+          "id": "INV-101",
+          "title": "فاتورة صيانة وزيوت",
+          "amount": 450.0,
+          "date": "2025-05-01T00:00:00.000",
+          "category": "صيانة"
+        }
+      ],
+      "lastLocation": "حي الملك فهد"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC001",
+      "name": "ترخيص المركز التعليمي والتربية الخاصة",
+      "category": "تصاريح",
+      "expiryDate": "2025-11-30T00:00:00.000",
+      "dueDate": "2025-11-15T00:00:00.000",
+      "issuingAuthority": "وزارة التعليم",
+      "docNumber": "EDU-2024-0182",
+      "reminderDays": 30
+    }
+  ],
+  "student": {
+    "id": "STU001",
+    "beneficiaryNumber": "STU-2026-089",
+    "nationalId": "1102938475",
+    "name": "ريان عبدالله المنصور",
+    "age": 7,
+    "category": "طيف توحد - درجة متوسطة (المستوى الثاني)",
+    "district": "حي الملك فهد - الرياض",
+    "program": "برنامج VB-MAPP / CARS / ABLLS-R",
+    "classRoom": "الفصل النموذجي - أ",
+    "teacherName": "أحمد محمد السعيد",
+    "carsScore": 28.5,
+    "vbmappScore": 72.0,
+    "parentName": "عبدالله سعد المنصور",
+    "parentPhone": "0508765432",
+    "motherPhone": "0554321098",
+    "emergencyPhone": "0114567890",
+    "busRoute": "خط حي الملك فهد",
+    "busDriver": "محمد علي العتيبي",
+    "busInfo": {
+      "busNumber": "باص 1",
+      "busShape": "حافلة نقل خاص (باص مدرسي — 14 راكباً)",
+      "plateNumber": "أ ب ت 1234",
+      "color": "أصفر مع شريط أزرق داكن",
+      "model": "تويوتا هايس (موديل 2022)",
+      "capacity": 14,
+      "driverName": "محمد علي العتيبي",
+      "driverPhone": "0506543210",
+      "driverPhoto": "https://api.dicebear.com/7.x/initials/svg?seed=محمد-لعتيبي",
+      "attendantName": "سالم عبدالله الغامدي",
+      "attendantPhone": "0551239870",
+      "attendantPhoto": "https://api.dicebear.com/7.x/initials/svg?seed=سالم-الغامدي"
+    },
+    "documents": {
+      "socialCaseStudy": {
+        "title": "دراسة الحالة الاجتماعية والنفسية",
+        "status": "مكتملة ومحدثة",
+        "date": "2026-01-15",
+        "docCode": "DOC-SOC-2026",
+        "isVerified": true
+      },
+      "healthForm": {
+        "title": "استمارة الجانب الصحي والحركي",
+        "status": "محدثة (حساسية طعام خفيفة)",
+        "date": "2026-02-10",
+        "docCode": "DOC-HLT-2026",
+        "isVerified": true
+      },
+      "mediaConsent": {
+        "title": "موافقة ولي الأمر على التصوير والإعلام",
+        "status": "موافق عليها رسمياً",
+        "date": "2026-01-05",
+        "docCode": "DOC-MED-2026",
+        "isVerified": true
+      },
+      "medicalReport": {
+        "title": "التقرير الطبي الشامل المعتمد",
+        "status": "معتمد من مستشفى الملك فيصل",
+        "date": "2026-03-01",
+        "docCode": "DOC-REP-2026",
+        "isVerified": true
+      }
+    },
+    "providedServices": [
+      {
+        "id": "SERV01",
+        "name": "التأهيلي الشامل",
+        "category": "قسم التأهيل",
+        "specialist": "أ. أحمد محمد السعيد",
+        "weeklySessions": 5,
+        "active": true,
+        "icon": "🏫"
+      },
+      {
+        "id": "SERV02",
+        "name": "النطق والتخاطب",
+        "category": "قسم النطق",
+        "specialist": "أ. فاطمة عبدالله الزهراني",
+        "weeklySessions": 3,
+        "active": true,
+        "icon": "🗣️"
+      },
+      {
+        "id": "SERV03",
+        "name": "العلاج السلوكي والنفسي",
+        "category": "قسم النفسي",
+        "specialist": "د. خالد العمري",
+        "weeklySessions": 4,
+        "active": true,
+        "icon": "🧠"
+      },
+      {
+        "id": "SERV04",
+        "name": "العلاج الوظيفي والتكامل الحسي",
+        "category": "قسم الوظيفي",
+        "specialist": "أ. ريم الشمري",
+        "weeklySessions": 2,
+        "active": true,
+        "icon": "✋"
+      },
+      {
+        "id": "SERV05",
+        "name": "العلاج الطبيعي",
+        "category": "قسم العلاج الطبيعي",
+        "specialist": "أ. ياسر الغامدي",
+        "weeklySessions": 0,
+        "active": false,
+        "icon": "🏃"
+      },
+      {
+        "id": "SERV06",
+        "name": "النشاط الاجتماعي والورش",
+        "category": "قسم الأنشطة",
+        "specialist": "أ. منيرة السبيعي",
+        "weeklySessions": 2,
+        "active": true,
+        "icon": "🎨"
+      }
+    ],
+    "assessmentLibrary": [
+      {
+        "id": "ASS01",
+        "title": "1. تقييم التعليم الخاص والقسم التأهيلي (VB-MAPP)",
+        "accreditation": "معتمد عالمياً BACCB",
+        "score": "72/170 (المستوى الثاني)",
+        "date": "2026-07-15",
+        "specialist": "أ. أحمد السعيد",
+        "status": "معتمد علمياً",
+        "summary": "إتقان الطلبات المباشرة والتسمية، مع حاجة لتطوير الجمل المركبة."
+      },
+      {
+        "id": "ASS02",
+        "title": "2. التقييم المهني (العلاج بالعمل)",
+        "accreditation": "معتمد من هيئة ذوي الإعاقة",
+        "score": "70% إنجاز مهاري",
+        "date": "2026-06-20",
+        "specialist": "أ. مريم العتيبي",
+        "status": "معتمد علمياً",
+        "summary": "قدرة جيدة على استخدام أوراق العمل والأشغال اليدوية البسيطة ورز الأزرار."
+      },
+      {
+        "id": "ASS03",
+        "title": "3. تقييم العلاج الوظيفي والتكامل الحسي",
+        "accreditation": "معتمد من وزارة الصحة",
+        "score": "80% مهارات دقيقة",
+        "date": "2026-07-05",
+        "specialist": "أ. ريم الشمري",
+        "status": "معتمد علمياً",
+        "summary": "تحسن في المسك التكيفي للقلم والتوازن الحركي في القفز والتسلق."
+      },
+      {
+        "id": "ASS04",
+        "title": "4. تقييم النطق والتخاطب والتواصل التفاعلي",
+        "accreditation": "معتمد من الجمعية السعودية للنطق",
+        "score": "88% استجابة",
+        "date": "2026-08-01",
+        "specialist": "أ. فاطمة الزهراني",
+        "status": "معتمد علمياً",
+        "summary": "تطور ملحوظ في استخدام نظام PECS واستخدام كروت الصورة للجمل."
+      },
+      {
+        "id": "ASS05",
+        "title": "5. تقييم التطور السلوكي (ABLLS-R)",
+        "accreditation": "معتمد بحثياً",
+        "score": "82% مهارات تكيفية",
+        "date": "2026-07-28",
+        "specialist": "د. خالد العمري",
+        "status": "معتمد علمياً",
+        "summary": "انخفاض نوبات الغضب والتزام ممتاز بأمر الجلوس والتفاعل مع المجموعة."
+      },
+      {
+        "id": "ASS06",
+        "title": "6. تقييم العلاج النفسي والتوافق الانفعالي",
+        "accreditation": "معتمد من مجلس الصحة النفسية",
+        "score": "استقرار انفعالي 85%",
+        "date": "2026-06-15",
+        "specialist": "د. خالد العمري",
+        "status": "معتمد علمياً",
+        "summary": "انخفاض التوتر والقلق في المواقف الاجتماعية الجديدة والرحلات."
+      },
+      {
+        "id": "ASS07",
+        "title": "7. تقييم العلاج الطبيعي والتناسق الحركي",
+        "accreditation": "معتمد طبياً",
+        "score": "قوة عضلية 90%",
+        "date": "2026-05-30",
+        "specialist": "أ. ياسر الغامدي",
+        "status": "معتمد علمياً",
+        "summary": "مرونة عالية في المشي والتوازن، عدم وجود تشوهات قوامية."
+      },
+      {
+        "id": "ASS08",
+        "title": "8. تقييم الحالة الغذائية والعادات التغذوية",
+        "accreditation": "معتمد من قسم التغذية العلاجية",
+        "score": "نمو متزن (BMI 16.5)",
+        "date": "2026-07-10",
+        "specialist": "د. سارة الدوسري",
+        "status": "معتمد علمياً",
+        "summary": "استجابة لنظام غذائي خالي من الملونات وتناول وجبة صحية متكاملة."
+      },
+      {
+        "id": "ASS09",
+        "title": "9. مقياس التوحد التشخيصي (كارس CARS-2)",
+        "accreditation": "معتمد موثق وزارة الصحة",
+        "score": "28.5 / 60 (طبيعي خفيف)",
+        "date": "2026-05-10",
+        "specialist": "د. خالد العمري",
+        "status": "معتمد علمياً",
+        "summary": "درجة توحد خفيفة، استجابة عالية للتعليم الفردي والمباشر."
+      },
+      {
+        "id": "ASS10",
+        "title": "10. مقياس فاينلاند للسلوك التكيفي (VABS-3)",
+        "accreditation": "معتمد قياسياً",
+        "score": "78 درجة معيارية",
+        "date": "2026-04-18",
+        "specialist": "أ. ريم الشمري",
+        "status": "معتمد علمياً",
+        "summary": "استقلالية ممتازة في العناية الذاتية وتناول الوجبات ارتداء الملابس."
+      },
+      {
+        "id": "ASS11",
+        "title": "11. تقييم القبعات الثمانية للنمو الشامل",
+        "accreditation": "معتمد من المركز الدولي للتطوير",
+        "score": "مستوى متقدم (السطر 6)",
+        "date": "2026-08-05",
+        "specialist": "أ. أحمد السعيد",
+        "status": "معتمد علمياً",
+        "summary": "تغطية ممتازة لكافة الجوانب المعرفية والتواصلية والحركية والاجتماعية."
+      }
+    ],
+    "contentLibrary": {
+      "liveEventStream": {
+        "isLiveNow": true,
+        "title": "🔴 بث مباشر: ورشة المهارات الحركية والتكامل الحسي للطلاب",
+        "presenter": "أ. ريم الشمري - قسم العلاج الوظيفي",
+        "time": "مستمر الآن (10:00 ص - 11:30 ص)",
+        "viewersCount": 42,
+        "streamUrl": "https://stream.yazan-center.org/live/event-101"
+      },
+      "activities": [
+        {
+          "id": "ACT01",
+          "title": "نشاط مطابقة الأشكال والتركيب الخشبي",
+          "department": "القسم التأهيلي",
+          "type": "نشاط تفاعلي",
+          "description": "تدريب الطالب على التمييز البصري لمطابقة 6 أشكال هندسية رئيسية.",
+          "icon": "🧩"
+        },
+        {
+          "id": "ACT02",
+          "title": "ورشة الرسم بالألوان المائية والتعبير",
+          "department": "قسم العلاج الوظيفي والأنشطة",
+          "type": "ورشة عمل",
+          "description": "تحسين تقوية العضلات الدقيقة للأصابع والتعبير عن الانفعالات.",
+          "icon": "🎨"
+        }
+      ],
+      "mediaGallery": [
+        {
+          "id": "MED01",
+          "title": "فيديو جلسة التخاطب واستخدام بطاقات PECS",
+          "type": "فيديو توثيقي",
+          "duration": "03:45 دقيقة",
+          "thumbnail": "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=500",
+          "date": "2026-08-10"
+        },
+        {
+          "id": "MED02",
+          "title": "صور تفاعل ريان في اليوم الاجتماعي والرياضي",
+          "type": "معرض صور",
+          "itemCount": "8 صور",
+          "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=500",
+          "date": "2026-08-05"
+        }
+      ],
+      "worksheets": [
+        {
+          "id": "WS01",
+          "title": "ورقة عمل: تتبع الخطوط والمنحنيات بالألوان",
+          "department": "قسم العلاج الوظيفي",
+          "pagesCount": 2,
+          "fileFormat": "PDF",
+          "date": "2026-08-12"
+        },
+        {
+          "id": "WS02",
+          "title": "ورقة عمل منزلية: تسمية بطاقات الفواكه والخضار",
+          "department": "قسم النطق والتخاطب",
+          "pagesCount": 3,
+          "fileFormat": "PDF",
+          "date": "2026-08-14"
+        }
+      ]
+    },
+    "classTimetable": {
+      "className": "الفصل النموذجي (أ) - الدوام الصباحي",
+      "schedule": [
+        {
+          "day": "الأحد",
+          "periods": [
+            {"time": "08:00 - 08:45 ص", "subject": "جلسة نطق وتواصل", "room": "قاعة التخاطب 1", "teacher": "أ. فاطمة الزهراني"},
+            {"time": "08:45 - 09:30 ص", "subject": "تأهيل مهني وأشغال", "room": "معمل الأشغال", "teacher": "أ. مريم العتيبي"},
+            {"time": "10:00 - 10:45 ص", "subject": "تعديل سلوك وتفاعل", "room": "قاعة السلوك", "teacher": "د. خالد العمري"},
+            {"time": "11:00 - 11:45 ص", "subject": "علاج وظيفي وحركي", "room": "صالة التكامل الحسي", "teacher": "أ. ريم الشمري"}
+          ]
+        },
+        {
+          "day": "الإثنين",
+          "periods": [
+            {"time": "08:00 - 08:45 ص", "subject": "مهارات تعلم فردي", "room": "الفصل النموذجي أ", "teacher": "أ. أحمد السعيد"},
+            {"time": "08:45 - 09:30 ص", "subject": "علاج طبيعي وتنسيق", "room": "صالة العلاج الطبيعي", "teacher": "أ. ياسر الغامدي"},
+            {"time": "10:00 - 10:45 ص", "subject": "جلسة نطق وتواصل", "room": "قاعة التخاطب 1", "teacher": "أ. فاطمة الزهراني"},
+            {"time": "11:00 - 11:45 ص", "subject": "نشاط اجتماعي ورسم", "room": "معمل الفنون", "teacher": "أ. منيرة السبيعي"}
+          ]
+        },
+        {
+          "day": "الثلاثاء",
+          "periods": [
+            {"time": "08:00 - 08:45 ص", "subject": "تأهيل مهني ورعايات", "room": "معمل الأشغال", "teacher": "أ. مريم العتيبي"},
+            {"time": "08:45 - 09:30 ص", "subject": "جلسة نطق وتواصل", "room": "قاعة التخاطب 1", "teacher": "أ. فاطمة الزهراني"},
+            {"time": "10:00 - 10:45 ص", "subject": "تعديل سلوك جماعي", "room": "قاعة السلوك", "teacher": "د. خالد العمري"},
+            {"time": "11:00 - 11:45 ص", "subject": "علاج وظيفي وحسي", "room": "صالة التكامل الحسي", "teacher": "أ. ريم الشمري"}
+          ]
+        },
+        {
+          "day": "الأربعاء",
+          "periods": [
+            {"time": "08:00 - 08:45 ص", "subject": "مهارات تعلم وحاسب", "room": "الفصل النموذجي أ", "teacher": "أ. أحمد السعيد"},
+            {"time": "08:45 - 09:30 ص", "subject": "علاج طبيعي وتوازن", "room": "صالة العلاج الطبيعي", "teacher": "أ. ياسر الغامدي"},
+            {"time": "10:00 - 10:45 ص", "subject": "جلسة نطق وتواصل", "room": "قاعة التخاطب 1", "teacher": "أ. فاطمة الزهراني"},
+            {"time": "11:00 - 11:45 ص", "subject": "نشاط حركي ولعب", "room": "الملعب الخارجي", "teacher": "أ. منيرة السبيعي"}
+          ]
+        },
+        {
+          "day": "الخميس",
+          "periods": [
+            {"time": "08:00 - 08:45 ص", "subject": "تأهيل مهني وتجميع", "room": "معمل الأشغال", "teacher": "أ. مريم العتيبي"},
+            {"time": "08:45 - 09:30 ص", "subject": "تقييم أسبوعي ومراجعة", "room": "الفصل النموذجي أ", "teacher": "أ. أحمد السعيد"},
+            {"time": "10:00 - 11:30 ص", "subject": "نشاط اجتماعي ختامي وبث", "room": "مسرح المركز", "teacher": "فريق العمل المباشر"}
+          ]
+        }
+      ]
+    },
+    "iepPlans": {
+      "annualGoals": [
+        {
+          "id": "AG01",
+          "department": "قسم النطق والتخاطب",
+          "skill": "استخدام جمل مكونة من 3 كلمات لطلب الاحتياجات اليومية",
+          "masteryTarget": 85,
+          "duration": "12 شهر (حتى 12/2026)",
+          "specialist": "أ. فاطمة الزهراني",
+          "status": "جاري التنفيذ"
+        },
+        {
+          "id": "AG02",
+          "department": "قسم العلاج السلوكي",
+          "skill": "الجلوس المتواصل في النشاط الجماعي لمدة 15 دقيقة بدون تشتت",
+          "masteryTarget": 90,
+          "duration": "12 شهر (حتى 12/2026)",
+          "specialist": "د. خالد العمري",
+          "status": "متقدم"
+        },
+        {
+          "id": "AG03",
+          "department": "قسم العلاج الوظيفي",
+          "skill": "أمسك القلم بشكل صحي وتتبع الخوط المنحنية بثبات",
+          "masteryTarget": 80,
+          "duration": "6 أشهر (حتى 09/2026)",
+          "specialist": "أ. ريم الشمري",
+          "status": "تحت المتابعة"
+        }
+      ],
+      "monthlyGoals": [
+        {
+          "id": "MG01",
+          "department": "قسم النطق",
+          "skill": "نطق الكلمات الثنائية بصوت واضح (أريد + الاسم)",
+          "masteryTarget": 88,
+          "duration": "شهر أغسطس 2026",
+          "specialist": "أ. فاطمة الزهراني",
+          "status": "أتقن 88%"
+        },
+        {
+          "id": "MG02",
+          "department": "قسم السلوك",
+          "skill": "تقليل الاستجابة التكرارية للأيدي أثناء تغيير النشاط",
+          "masteryTarget": 75,
+          "duration": "شهر أغسطس 2026",
+          "specialist": "د. خالد العمري",
+          "status": "قيد التعلم 75%"
+        },
+        {
+          "id": "MG03",
+          "department": "قسم التأهيل المهني",
+          "skill": "تجميع الأشغال اليدوية وتنسيق الخرز الملون",
+          "masteryTarget": 70,
+          "duration": "شهر أغسطس 2026",
+          "specialist": "أ. مريم العتيبي",
+          "status": "مستمر 70%"
+        }
+      ],
+      "aiSuggestions": [
+        {
+          "id": "AI-SUG-01",
+          "title": "تعزيز التواصل التبادلي في اللعب الجماعي",
+          "rationale": "بناءً على نتائج CARS و VB-MAPP، تبين إمكانية رفع قدرة التفاعل الاجتماعي مع الأقران.",
+          "suggestedMastery": 80,
+          "suggestedDuration": "2 شهر",
+          "targetDepartment": "قسم التأهيل الاجتماعي"
+        },
+        {
+          "id": "AI-SUG-02",
+          "title": "استخدام بطاقات PECS الذكية للتعبير عن المشاعر",
+          "rationale": "تحليل أداء النطق يشير إلى استجابة ريان السريعة للمثيرات البصرية.",
+          "suggestedMastery": 85,
+          "suggestedDuration": "1 شهر",
+          "targetDepartment": "قسم النطق والتواصل"
+        }
+      ]
+    },
+    "sessionsManagement": {
+      "recentSessions": [
+        {
+          "id": "SESS-101",
+          "date": "2026-08-13",
+          "time": "09:00 ص",
+          "title": "جلسة النطق والتواصل",
+          "specialist": "أ. فاطمة الزهراني",
+          "performanceRating": "مستقل",
+          "ratingIcon": "🌟",
+          "skillAnalysis": "استجابة ممتازة لتسمية الصور وتكرار الجمل الحوارية.",
+          "homework": "تكرار بطاقات الأطعمة المفضل مع الأبوين في المنزل 3 مرات يومياً."
+        },
+        {
+          "id": "SESS-102",
+          "date": "2026-08-12",
+          "time": "10:30 ص",
+          "title": "جلسة العلاج الوظيفي",
+          "specialist": "أ. ريم الشمري",
+          "performanceRating": "مساعدة بسيطة",
+          "ratingIcon": "🤏",
+          "skillAnalysis": "تحسن في قبض القلم واستخدام المقص البلاستيكي.",
+          "homework": "تدريب فتح وإغلاق الأزرار الكبيرة في القميص."
+        }
+      ],
+      "lastCopiedData": {
+        "title": "جلسة النطق السابقة (13 أغسطس)",
+        "content": "الهدف: تسمية 5 مجسمات. الأداء: أتقن 4 من 5 بمساعدة لفظية بسيطة."
+      }
+    },
+    "attendanceManagement": {
+      "presentDays": 18,
+      "absentDays": 2,
+      "excusedDays": 1,
+      "unexcusedDays": 1,
+      "totalDays": 20,
+      "attendancePercentage": 90.0,
+      "medicalLeaves": [
+        {
+          "id": "ML-01",
+          "date": "2026-08-08",
+          "reason": "إجازة مرضية - ارتفاع في درجة الحرارة مع مراجعة المستشفى",
+          "approvedBy": "إدارة المركز",
+          "attachment": "medical_leave_aug08.pdf",
+          "status": "معتمدة"
+        }
+      ]
+    },
+    "progressAndAlerts": {
+      "overallProgressPercentage": 84.5,
+      "progressGraphData": [
+        {"month": "أبريل", "percentage": 65},
+        {"month": "مايو", "percentage": 70},
+        {"month": "يونيو", "percentage": 76},
+        {"month": "يوليو", "percentage": 80},
+        {"month": "أغسطس", "percentage": 85}
+      ],
+      "earlyWarningAlerts": [
+        {
+          "id": "ALERT-01",
+          "type": "warning",
+          "title": "⚠️ ركود في مهارة التقليد والمحاكاة",
+          "description": "لم يتم تسجيل تحسن في نسبة الإتقان (75%) خلال آخر 14 يوم. يوصى بمراجعة الخطة السلوكية.",
+          "date": "2026-08-10",
+          "severity": "متوسط"
+        },
+        {
+          "id": "ALERT-02",
+          "type": "info",
+          "title": "💡 إنجاز مبكر في مهارة التواصل اللغوي",
+          "description": "تم تجاوز نسبة الإتقان المطلوبة (88%) قبل نهاية الموعد المحدد بأسبوع.",
+          "date": "2026-08-12",
+          "severity": "إيجابي"
+        }
+      ]
+    },
+    "reportsAndCommunication": {
+      "centerLogo": "assets/images/logo.png",
+      "centerTitle": "مركز بناء للتربية الخاصة والتأهيل الشامل",
+      "actualTeam": [
+        {"name": "أحمد محمد السعيد", "role": "معلم تربية خاصة وتأهيل", "avatar": "أم"},
+        {"name": "فاطمة عبدالله الزهراني", "role": "أخصائية نطق وتواصل", "avatar": "فز"},
+        {"name": "د. خالد العمري", "role": "استشاري علاج سلوكي ونفسي", "avatar": "خع"},
+        {"name": "أ. ريم الشمري", "role": "أخصائية علاج وظيفي", "avatar": "رش"}
+      ],
+      "availableReports": [
+        {
+          "id": "REP-Q1-2026",
+          "title": "التقرير الربع سنوي - الربع الأول 2026",
+          "period": "يناير - مارس 2026",
+          "status": "مكتمل ومعتمد",
+          "pdfUrl": "report_q1_2026.pdf"
+        },
+        {
+          "id": "REP-H1-2026",
+          "title": "التقرير النصف سنوي - الفصل الأول 2026",
+          "period": "يناير - يونيو 2026",
+          "status": "مكتمل ومعتمد",
+          "pdfUrl": "report_h1_2026.pdf"
+        },
+        {
+          "id": "REP-FIN-2026",
+          "title": "التقرير السنوي الشامل 2026",
+          "period": "عام 2026 الكامل",
+          "status": "جاهز للطباعة والاعتماد النهائي",
+          "pdfUrl": "report_final_2026.pdf"
+        }
+      ],
+      "offlineSync": {
+        "status": "متصل والبيانات محفوضة محلياً",
+        "lastSynced": "2026-09-01 19:25",
+        "pendingDrafts": 0
+      },
+      "auditTrailLog": [
+        {"user": "أحمد السعيد", "action": "تعديل نسبة إتقان مهارة التواصل إلى 88%", "timestamp": "2026-08-12 11:30"},
+        {"user": "فاطمة الزهراني", "action": "تسجيل ملاحظات جلسة النطق اليومية", "timestamp": "2026-08-13 09:15"},
+        {"user": "إدارة المركز", "action": "اعتماد الإجازة المرضية بتاريخ 08/08", "timestamp": "2026-08-09 14:00"}
+      ]
+    },
+    "skills": [
+      {
+        "name": "تواصل لغوي - VB-MAPP & ABLLS-R",
+        "masteryPercentage": 88.0,
+        "status": "متقدم (أتقن 88%)",
+        "domain": "تواصل ورعايات لغوية",
+        "assistanceLevel": "مساعدة بسيطة",
+        "lastReviewed": "2026-08-12"
+      },
+      {
+        "name": "التقليد والمحاكاة التفاعلية",
+        "masteryPercentage": 75.0,
+        "status": "قيد التعلم (75%)",
+        "domain": "تفاعل اجتماعي",
+        "assistanceLevel": "مساعدة كاملة",
+        "lastReviewed": "2026-08-10"
+      },
+      {
+        "name": "العناية الشخصية وتدريب الحمام",
+        "masteryPercentage": 82.0,
+        "status": "استقلالية (82%)",
+        "domain": "مهارات حياتية حركية",
+        "assistanceLevel": "مستقل",
+        "lastReviewed": "2026-08-11"
+      },
+      {
+        "name": "اللعب الوظيفي الابتكاري",
+        "masteryPercentage": 91.0,
+        "status": "أتقن (91%)",
+        "domain": "مهارات اجتماعية",
+        "assistanceLevel": "مستقل",
+        "lastReviewed": "2026-08-09"
+      },
+      {
+        "name": "الورشه المهنية - الأشغال اليدوية",
+        "masteryPercentage": 70.0,
+        "status": "برنامج مهني (70%)",
+        "domain": "تأهيل مهني",
+        "assistanceLevel": "مساعدة بسيطة",
+        "lastReviewed": "2026-08-08"
+      }
+    ],
+    "dailyLogs": [
+      {"time": "07:30", "category": "وصول وتحضير الباص", "description": "ركب الباص وتم تسجيل الحضور في المنصة", "icon": "🚌"},
+      {"time": "08:00", "category": "تدريب الحمام والنظافة", "description": "استخدام الحمام باستقلالية 100% وغسيل اليدين", "icon": "🪥"},
+      {"time": "08:30", "category": "متابعة الوجبة", "description": "تناول إفطاره كاملاً مستقل 90%", "icon": "🥪"},
+      {"time": "09:00", "category": "جلسة ABLLS-R / VB-MAPP", "description": "تطوير الأهداف المرحلية والتحليل المهاري", "icon": "📊"},
+      {"time": "11:00", "category": "الورشة المهنية", "description": "تدريب الخياطة والأشغال اليدوية البسيطة", "icon": "🧵"}
+    ],
+    "diagnosticTests": [
+      {"name": "برنامج VB-MAPP والأيبلر (ABLLS-R)", "score": "المستوى الثاني (88%)", "status": "مكتمل ومعتمد", "category": "مهارات لغوية واجتماعية", "date": "01/08/2025"},
+      {"name": "مقياس كارز (CARS)", "score": "28.5 / 60 (طبيعي خفيف)", "status": "مكتمل", "category": "تشخيص توحد", "date": "15/07/2025"},
+      {"name": "اختبار النصح الاجتماعي (Social Maturity)", "score": "85%", "status": "معتمد", "category": "تأهيل اجتماعي", "date": "10/06/2025"},
+      {"name": "اختبار بيبي (PEP-3)", "score": "مستوى متقدم", "status": "مكتمل", "category": "تقييم نفسي حركي", "date": "01/05/2025"},
+      {"name": "اختبار جليام (GARS-3)", "score": "72 درجة", "status": "معتمد", "category": "سلوك تكراري", "date": "20/04/2025"},
+      {"name": "دراسة الحالة الاجتماعية والنفسية", "score": "تقرير مكتمل", "status": "مؤرشف", "category": "قسم نفسي واجتماعي", "date": "10/01/2025"},
+      {"name": "التقييم المبدئي الشامل (جميع الأقسام)", "score": "خطة فردية جاهزة", "status": "مؤرشف", "category": "تقييم شامل", "date": "01/09/2024"}
+    ],
+    "vocationalWorkshops": [
+      {"title": "ورشة الأشغال اليدوية والتجميع", "instructor": "أ. مريم العتيبي", "progress": 0.85, "status": "متقدم", "icon": "🎨"},
+      {"title": "ورشة الخياطة وتنسيق الألوان", "instructor": "أ. سارة الحربي", "progress": 0.70, "status": "قيد التدريب", "icon": "🧵"},
+      {"title": "ورشة إعداد الوجبات البسيطة والطهي", "instructor": "أ. نورة القحطاني", "progress": 0.90, "status": "متقن", "icon": "🍳"}
+    ],
+    "attendance": {
+      "presentDays": 18,
+      "absentDays": 2,
+      "totalDays": 20,
+      "attendancePercentage": 90.0,
+      "recentDays": [
+        {"date": "2026-08-07", "present": true},
+        {"date": "2026-08-08", "present": false},
+        {"date": "2026-08-09", "present": true},
+        {"date": "2026-08-10", "present": true},
+        {"date": "2026-08-11", "present": true},
+        {"date": "2026-08-12", "present": true},
+        {"date": "2026-08-13", "present": true}
+      ]
+    },
+    "previousMessages": [
+      {"id": "m1", "content": "السلام عليكم، كيف تقدم ريان في مهارة التواصل هذا الأسبوع؟", "date": "2026-08-10 10:30", "isFromSchool": false},
+      {"id": "m2", "content": "وعليكم السلام، تقدم ممتاز. بدأ يستخدم جملة \"أريد\" بشكل تلقائي.", "date": "2026-08-10 14:15", "isFromSchool": true},
+      {"id": "m3", "content": "هل هناك أنشطة مقترحة للتدريب في المنزل؟", "date": "2026-08-11 09:00", "isFromSchool": false},
+      {"id": "m4", "content": "نعم، يمكنك التدريب على طلب الأشياء المفضلة باستخدام \"أريد\" وانتظار الرد.", "date": "2026-08-11 11:45", "isFromSchool": true}
+    ]
+  },
+  "notifications": [
+    {
+      "id": "N001",
+      "type": "doc",
+      "title": "مستند حرج: على وشك الانتهاء",
+      "body": "ترخيص المركز التعليمي والتربية الخاصة ينتهي في 15 نوفمبر — يرجى البدء بإجراء التجديد.",
+      "time": "اليوم، 09:12 ص",
+      "isUnread": true,
+      "isImportant": true
+    },
+    {
+      "id": "N002",
+      "type": "payroll",
+      "title": "مسير الرواتب جاهز للاعتماد",
+      "body": "تم احتساب مسير شهر رمضان تلقائياً شاملاً الخصومات والاستئذانات. اعتمده الآن.",
+      "time": "اليوم، 08:40 ص",
+      "isUnread": true,
+      "isImportant": false
+    },
+    {
+      "id": "N003",
+      "type": "bus",
+      "title": "فاتورة صيانة جديدة للباص",
+      "body": "أُضيفت فاتورة صيانة للباص رقم ٣ بمبلغ ٤٥٠ ر.س في سجل الصيانة والوقود.",
+      "time": "أمس، 03:20 م",
+      "isUnread": true,
+      "isImportant": false
+    },
+    {
+      "id": "N004",
+      "type": "attendance",
+      "title": "غياب غير مبرر لموظف",
+      "body": "لم يسجّل أحد الموظفين الحضور عبر البصمة اليوم — تم احتساب خصم آلي.",
+      "time": "أمس، 02:05 م",
+      "isUnread": true,
+      "isImportant": false
+    },
+    {
+      "id": "N005",
+      "type": "doc",
+      "title": "تم تجديد مستند بنجاح",
+      "body": "تم اعتماد تجديد رخصة المنشأة وتحديث حالتها إلى \"سارية وموثقة\".",
+      "time": "قبل 3 أيام",
+      "isUnread": false,
+      "isImportant": false
+    },
+    {
+      "id": "N006",
+      "type": "general",
+      "title": "إعلان عام: رحلة المركز القادمة",
+      "body": "ستقام الرحلة الخارجية يوم الخميس 20 رمضان. يرجى تأكيد مشاركة الطلاب.",
+      "time": "قبل أسبوع",
+      "isUnread": false,
+      "isImportant": false
+    }
+  ],
+  "admissionApplications": [
+    {
+      "id": "ADM-2026-01",
+      "studentName": "سارة خالد الغامدي",
+      "guardianName": "خالد الغامدي",
+      "phone": "0551122334",
+      "diagnosis": "طيف توحد (درجة متوسطة)",
+      "age": 7,
+      "status": "قيد التقييم",
+      "appliedDate": "2026-08-10"
+    },
+    {
+      "id": "ADM-2026-02",
+      "studentName": "عمر فهد الدوسري",
+      "guardianName": "فهد الدوسري",
+      "phone": "0509988776",
+      "diagnosis": "متلازمة داون",
+      "age": 6,
+      "status": "مقبول مبدئياً",
+      "appliedDate": "2026-08-11"
+    },
+    {
+      "id": "ADM-2026-03",
+      "studentName": "ريما سلطان السبيعي",
+      "guardianName": "سلطان السبيعي",
+      "phone": "0543210987",
+      "diagnosis": "تأخر نمائي شامل",
+      "age": 5,
+      "status": "مكتمل ومسجل",
+      "appliedDate": "2026-08-01"
+    }
+  ],
+  "officialLetters": [
+    {
+      "id": "LET-101",
+      "title": "مشهد إثبات استمرار بالدراسة والتأهيل",
+      "studentName": "يزان عبد الله القحطاني",
+      "destination": "وزارة الموارد البشرية والتنمية الاجتماعية",
+      "issuedDate": "2026-08-05",
+      "letterCode": "MHR-2026-887"
+    },
+    {
+      "id": "LET-102",
+      "title": "تقرير جلسات العلاج الطبيعي والوظيفي",
+      "studentName": "يزان عبد الله القحطاني",
+      "destination": "مستشفى الملك فيصل التخصصي",
+      "issuedDate": "2026-08-08",
+      "letterCode": "MHR-2026-902"
+    }
+  ],
+  "studentAttendanceList": [
+    {
+      "studentId": "STD001",
+      "studentName": "يزان عبد الله القحطاني",
+      "status": "حاضر",
+      "busStatus": "تم النقل بالحافلة (باص 1)",
+      "timeIn": "07:30 ص"
+    },
+    {
+      "studentId": "STD002",
+      "studentName": "سارة خالد الغامدي",
+      "status": "حاضر",
+      "busStatus": "حضور مباشر مع ولي الأمر",
+      "timeIn": "07:45 ص"
+    },
+    {
+      "studentId": "STD003",
+      "studentName": "عمر فهد الدوسري",
+      "status": "غائب بعذر",
+      "busStatus": "لم يصعد للحافلة",
+      "timeIn": "-"
+    }
+  ],
+  "mediaItems": [
+    {"type": "video", "caption": "فيديو الجلسة الفردية بالفصل", "emoji": "📹"},
+    {"type": "photo", "caption": "صور نشاط الورشة المهنية", "emoji": "🎨"},
+    {"type": "video", "caption": "فيديو التفاعل في الرحلة الخارجية", "emoji": "🚌"},
+    {"type": "photo", "caption": "صور تدريب الحمام والنظافة", "emoji": "🪥"},
+    {"type": "video", "caption": "فيديو تطبيق اختبار PEP-3 و CARS", "emoji": "📊"},
+    {"type": "photo", "caption": "صور الوجبة الجماعية والأنشطة", "emoji": "🍽️"}
+  ],
+  "announcements": [
+    {"title": "رحلة المركز الخارجية القادمة", "date": "الخميس 20 رمضان", "tag": "رحلات", "color": "primary"},
+    {"title": "موعد اختبارات التقارير النصفية والنهائية", "date": "بداية الأسبوع القادم", "tag": "تقارير", "color": "amber"},
+    {"title": "إعلان نهاية الترم والعطلة الصيفية", "date": "15 شوال 1447", "tag": "مهم", "color": "accent"}
+  ],
+  "centerVideos": [
+    {"title": "جولة تعريفية بمركز بناء للتربية الخاصة", "duration": "3:45"},
+    {"title": "برنامج الورش المهنية وتهيئة الطلاب", "duration": "5:12"},
+    {"title": "كيفية تطبيق منهج VB-MAPP والأيبلر في المنزل", "duration": "8:20"}
+  ]
+}
